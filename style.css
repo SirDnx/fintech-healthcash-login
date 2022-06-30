@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient( to right, #152D73, #03012C);
+}
+
+h2{
+    color: black;
+}
+
+h1{
+    color: #152D73;
+    text-shadow: 2px 2px 0px gray;
+}
+
+.form-container{
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .2);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.imagemlogo{
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+
+
+.p1{
+    color:white;
+}
