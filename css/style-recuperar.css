@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+legend + img{
+    display: block;
+    margin: 0 auto 2.5em auto;
+}
+
+form > a, .links > a{
+    text-decoration: none;
+    color: var(--cor-facebook);
+    font-size: .8em;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root{
+    --cor1: #5354E0;
+    --cor2: #191A94; 
+    --cor-facebook: #3a559f; 
+    --cor-linha: #00000050; 
+    --fonte-titulo: 'Grand Hotel', cursive;
+    --fonte-geral: 'Open Sans', sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: var(--fonte-geral);
+    background-color: var(--cor1);
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    padding-top: 1em;
+    width: 100%;
+    margin: 0 auto;
+    flex: 1 0 auto;
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 60px 40px 20px 40px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+}
+
+.titulo-principal{
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    font-size: 1.2em;
+    margin: 2em 0px;
+}
+
+strong{
+    font-size: 1.4em;
+}
+
+.input-label{
+    font-size: 1.2em;
+    display: block;
+    text-align: center;
+}
+
+.campo-input{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: .7em;
+    background-color: transparent;
+    border-bottom: 1px solid #000000;
+    padding: 10px 0px 0px 0px;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.olho-input-senha{
+    position: relative;
+}
+
+.olho-senha{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.olho-senha:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.campo-checkbox{
+    font-size: .8em;
+}
+
+.botao-submeter{
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 1em;
+    font-size: 1em;
+    background-color: var(--cor1);
+    border-radius: 5px;
+    color: #FFFFFF;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+    border: 1px solid var(--cor2);
+    text-transform: lowercase;
+}
+
+.botao-submeter:hover{
+    transform: scale(1.050);
+    background-color: var(--cor2);
+}
+
+.outra-opcao{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 0;
+}
+
+.linha-horizontal{
+    margin-top: 10px;
+    width: 40%;
+    height: 1px;
+    background-color: var(--cor-linha);
+    display: inline-block;
+}
+
+.link-facebook{
+    text-align: center;
+    display: block;
+    color: var(--cor-facebook);
+    font-size: .8em;
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5em 0px;
+    margin-top: .5em;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+}
+
+.links p{
+    font-size: .7em;
+}
+
+.links p a{
+    color: var(--cor-facebook);
+    padding-left: 5px;
+}
+
+footer{
+    margin-top: 100px;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: transparent;
+    bottom: 0px;
+    flex-shrink: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffffbd;
+    font-weight: bold;
+    transition: .3s;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-decoration: underline;
+}

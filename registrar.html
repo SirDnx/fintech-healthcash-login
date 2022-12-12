@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="página login moderna">
+  <meta name="author" content="SirDnx">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/style-registrar.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <title>HealthCash - Criar conta</title>
+</head>
+<body>
+  <main>
+    <form>
+
+      <legend class="titulo-principal"><strong>HealthCash</strong> - Registrar</legend>
+
+      <fieldset>
+
+        <a href="#" class="link-facebook"><img src="img/icone-facebook-inverso.jpg" alt="logo do facebook">Registrar com o Facebook</a>
+
+      </fieldset>
+      <fieldset class="outra-opcao">
+
+        <hr class="linha-horizontal"><p>ou</p><hr class="linha-horizontal">
+
+      </fieldset>
+      <fieldset>
+
+        <input type="text" class="campo-input" name="nome" placeholder="nome de usuário" required>
+        
+        <input type="email" class="campo-input" name="email" placeholder="e-mail" required>
+
+        <fieldset class="olho-input-senha">
+
+          <input type="password" class="campo-input" id="senha" name="senha" placeholder="crie uma senha" required>
+
+          <img id="eye" class="olho-senha" onclick="eyeClick()" src="img/closedeye.png" width="18px" alt="icone olho fechado">
+
+        </fieldset>
+
+        <input type="password" class="campo-input" name="senha-confirmacao" placeholder="repita a senha" required>
+    
+      </fieldset>
+
+      <input class="botao-submeter" type="submit" value="Registrar">
+
+    </form>
+    <section class="links">
+
+      <p>Possui uma conta?<a href="index.html">Login</a></p>
+
+    </section> 
+
+    <script src="js/main.js" type="text/javascript"></script>
+
+  </main>
+  <footer>
+
+    <a href="https://www.linkedin.com/in/danielmoraesdev/" target="_blank" rel="external">&copy;Daniel Moraes - ADS Full Stack</a>
+
+  </footer>
+</body>
+</html>

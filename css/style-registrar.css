@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.link-facebook{
+    color: #FFFFFF;
+    background-color: var(--cor-facebook);
+    padding: 5px 0;
+    border-radius: 3px;
+    margin-bottom: 0;
+}
+
+.titulo-principal{
+    margin: 0 0 1em;
+}
+
+fieldset > a{
+    margin-bottom: 1em;
+}
+
